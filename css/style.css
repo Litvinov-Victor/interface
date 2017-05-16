@@ -90,7 +90,7 @@ body {
 .tabs li {
     display: flex;
     align-items: center;
-	padding: 12px 6px;
+	padding: 7px 6px;
 	color: #fff;
 	font-family: 'Roboto', sans-serif;
 	font-size: 11px;
