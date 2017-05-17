@@ -90,15 +90,16 @@ body {
 .tabs li {
     display: flex;
     align-items: center;
-	padding: 7px 6px;
-	color: #fff;
-	font-family: 'Roboto', sans-serif;
-	font-size: 11px;
-	line-height: 1;
-	background: #424242;
-	border: 1px solid #383838;
-	border-bottom: 1px solid transparent;
-	cursor: pointer;
+    padding: 7px 0;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    line-height: 1;
+    background: #424242;
+    border: 1px solid #383838;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
 }
 
 .tabs li svg {
