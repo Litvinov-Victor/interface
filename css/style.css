@@ -97,7 +97,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 10px;
     line-height: 1;
-    background: #424242;
+    background: #535353;
     border: 1px solid #383838;
     border-bottom: 1px solid transparent;
     cursor: pointer;
@@ -108,7 +108,7 @@ body {
 }
 
 .tabs li.active {
-	background: #535353;
+	background: #424242;
 }
 
 .tabs li:hover {
