@@ -1,5 +1,7 @@
 $(function(){
 
+
+
     $(document).on('click','ul.tabs li:not(.active)', function(e) {
         e.preventDefault();
         $(this).addClass('active').siblings().removeClass('active');
@@ -35,5 +37,16 @@ $(function(){
             unlock = false;
         });
     })();
+
+    document.body.onload = function(){
+
+        setTimeout(function(){
+            var preloader = document.getElementById('page-preloader');
+            if( !preloader.classList.contains('done') ){
+                preloader.classList.add('done');
+            }
+        }, 1000);
+    }
     
 })
+
