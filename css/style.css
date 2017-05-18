@@ -24,7 +24,7 @@ body {
 
 .interface__top {
     width: 100%;
-    height: 38px;
+    height: 48px;
     background: #535353;
     border-top: 1px solid #383838;
     border-bottom: 1px solid #383838;
@@ -60,7 +60,7 @@ body {
 
 .interface__left {
     background: #535353;
-    width: 37px;
+    width: 48px;
     border-left: 1px solid #383838;
     border-right: 1px solid #383838;
 }
@@ -163,7 +163,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 40px;
+    margin-left: 25px;
 }
 
 .interface__new-project:hover {
@@ -240,4 +240,19 @@ body {
 }
 .interface__work::-webkit-scrollbar-thumb {
     background: #696969;
+}
+
+.interface__navigation--title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 44px;
+    cursor: pointer;
+    border-right: 1px solid #383838;
+    border-left: 1px solid #383838;
+}
+
+.interface__navigation--title:hover {
+    background: #424242;
 }
