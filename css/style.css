@@ -151,22 +151,30 @@ body {
 }
 
 .interface__new-project {
+    display: flex;
+    align-items: center;  
+    height: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-right: 1px solid #383838;
+}
+
+.interface__new-project--btn {
+    margin: 5px 0;
     font-family: 'Roboto', sans-serif;
     color: #fff;
     font-size: 11px;
     text-align: center;
     padding: 3px 12px;
     border: 1px solid #383838;
-    margin: 5px;
     cursor: pointer;
     background: #535353;
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-left: 25px;
+    justify-content: center;    
 }
 
-.interface__new-project:hover {
+.interface__new-project--btn:hover {
     background: #424242;
 }
 
@@ -195,11 +203,14 @@ body {
 
 .interface__media {
     display: flex;
-    align-items: center;
+    align-items: center;  
+    height: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-right: 1px solid #383838;
     font-family: 'Roboto', sans-serif;
     color: #fff;
     font-size: 11px;
-    margin-left: 15px;
 }
 
 .interface__media-btn {
