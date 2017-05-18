@@ -242,6 +242,17 @@ body {
     background: #696969;
 }
 
+.interface__navigation {
+    position: relative;
+}
+
+.interface__navigation--body {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background: #424242;
+}
+
 .interface__navigation--title {
     display: flex;
     justify-content: center;
@@ -253,6 +264,42 @@ body {
     border-left: 1px solid #383838;
 }
 
+.interface__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    min-width: 235px;
+}
+
+.interface__list li {
+    border-bottom: 1px solid #535353;
+}
+
+.interface__list li:last-child {
+    border-bottom: none;
+}
+
+.interface__list li a {
+    display: block;
+    padding: 6px 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.interface__list li a:hover {
+    background: #282828;
+}
+
 .interface__navigation--title:hover {
     background: #424242;
+}
+
+.interface__navigation--body {
+    display: none;
+}
+
+.interface__navigation--body.open {
+    display: block;
 }

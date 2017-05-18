@@ -6,6 +6,11 @@ $(function(){
         $('.tabs__contents').find('.tabs__content').removeClass('active').eq($(this).index()).addClass('active');
     });
 
+    $('.interface__navigation--title').on('click', function(event){
+        event.preventDefault();
+        $('.interface__navigation--body').toggleClass('open');
+    })
+
     ;(function(){
         var resize    = $(".interface__right-pan");
         var pannel    = $(".interface__right");
