@@ -20,6 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     flex: auto;
+    user-select: none;
 }
 
 .interface__top {
@@ -244,6 +245,7 @@ body {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     overflow-y: auto;
+    user-select: auto;
 }
 .interface__work::-webkit-scrollbar {
     background: #4a4a4a;
