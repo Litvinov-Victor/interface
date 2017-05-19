@@ -38,7 +38,8 @@ $(function(){
         });
     })();
 
-    document.body.onload = function(){
+
+    window.onload = function(){
 
         setTimeout(function(){
             var preloader = document.getElementById('page-preloader');
