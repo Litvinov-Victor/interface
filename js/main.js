@@ -39,6 +39,7 @@ $(function(){
     })();
 
 
+    // Прелоадер
     window.onload = function(){
 
         setTimeout(function(){
