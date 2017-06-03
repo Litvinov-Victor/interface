@@ -17,13 +17,13 @@ $(function(){
         var resize    = $(".interface__right-pan");
         var pannel    = $(".interface__right");
         var currWidth = pannel.width();
-        var unlock    = false;   
+        var unlock    = false;
         $(document).mousemove(function(e) {
             var change = $(window).width() - e.clientX;
            if(unlock) {
                 pannel.css("width", change);
             }
-        });     
+        });
         resize.mousedown(function(e) {
             currWidth = pannel.width();
             unlock     = true;
@@ -49,6 +49,13 @@ $(function(){
             }
         }, 1000);
     }
-    
-})
+    $(document).on('keydown', function(event) {
 
+        if (event.keyCode === 18 && event.keyCode === 82) {
+            $('.interface__work').toggleClass('ruler');
+        }
+
+    });
+    $('.interface__work').ruler();
+
+});
