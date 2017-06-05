@@ -255,6 +255,13 @@ body {
 .interface__work::-webkit-scrollbar-thumb {
     background: #696969;
 }
+.interface__work.ruler-show .ruler {
+    display: block;
+}
+
+.interface__work .ruler {
+    display: none;
+}
 
 .interface__navigation {
     position: relative;

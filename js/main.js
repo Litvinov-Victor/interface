@@ -49,12 +49,11 @@ $(function(){
             }
         }, 1000);
     }
-    $(document).on('keydown', function(event) {
+    document.addEventListener('keydown', function(event) {
 
-        if (event.keyCode === 18 && event.keyCode === 82) {
-            $('.interface__work').toggleClass('ruler');
+        if (event.altKey && event.keyCode == 82) {
+            $('.interface__work').toggleClass('ruler-show');
         }
-
     });
     $('.interface__work').ruler();
 
